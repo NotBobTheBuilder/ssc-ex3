@@ -7,5 +7,5 @@ build : clean
 	javac -cp .:lib/mail.jar -d bin/ `find src/ -name \*.java`
 
 clean :
-	rm -r bin/
+	rm -rf bin/
 	mkdir bin
